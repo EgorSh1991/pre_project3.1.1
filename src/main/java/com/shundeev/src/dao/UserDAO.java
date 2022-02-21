@@ -13,6 +13,6 @@ public interface UserDAO {
 
     User getIdUser(long id);
 
-    void updateUser(long id, User updateUser);
+    void updateUser(User updateUser);
 
 }
